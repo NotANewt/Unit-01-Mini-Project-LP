@@ -1,0 +1,138 @@
+/* universal, element, and class selectors */
+/* 3 colors in the design */
+/* single font family for all text */
+
+/* universal selectors */
+* {
+  font-family: "Varela Round", sans-serif;
+}
+
+/* element selectors by parent */
+
+a {
+  text-decoration: none;
+}
+
+/* class in alpha order */
+
+.ai-c {
+  align-items: center;
+}
+
+.bgc-black {
+  background-color: black;
+}
+
+.bgc-darkpurple {
+  background-color: rgb(97, 13, 91);
+}
+
+.bgc-lightpurple {
+  background-color: rgb(154, 59, 145);
+}
+
+.bdc-lightpurple {
+  border-color: rgb(154, 59, 145);
+}
+
+.bdc-black {
+  border-color: black;
+}
+
+.bdw-thin {
+  border-width: thin;
+}
+
+.bdc-s {
+  border: solid;
+}
+
+.c-white {
+  color: white;
+}
+
+.d-f {
+  display: flex;
+}
+
+.ff-varela {
+  font-family: "Varela Round", sans-serif;
+}
+
+.fxf-c {
+  flex-flow: column;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fz-1 {
+  font-size: 1rem;
+}
+
+.fz-2 {
+  font-size: 2rem;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-fe {
+  justify-content: flex-end;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.lis-n {
+  list-style: none;
+}
+
+.m0 {
+  margin: 0;
+}
+
+.m-a {
+  margin: auto;
+}
+
+.maw-50 {
+  max-width: 50%;
+}
+
+.p {
+  padding: 1.5rem;
+}
+
+.p0 {
+  padding: 0;
+}
+
+.pos-stky {
+  position: sticky;
+}
+
+.t0 {
+  top: 0;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+/* media query */
+@media (min-width: 768px) {
+  .d-f\@lrg {
+    display: flex;
+  }
+  .ml\@lrg {
+    margin-left: 1.5rem;
+  }
+}

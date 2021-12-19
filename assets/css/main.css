@@ -127,6 +127,10 @@ a {
   width: 30%;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 /* media query */
 @media (min-width: 768px) {
   .d-f\@lrg {
